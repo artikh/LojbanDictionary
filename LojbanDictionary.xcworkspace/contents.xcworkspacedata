@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace>
+   <FileRef
+      location = "container:LojbanDictionaryCreator/LojbanDictionaryCreator.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "container:LojbanDictionaryApp/LojbanDictionaryApp.xcodeproj">
+   </FileRef>
+</Workspace>

@@ -1,0 +1,2 @@
+*.pbxproj -crlf -diff -merge
+*.xcworkspacedata -crlf -diff -merge

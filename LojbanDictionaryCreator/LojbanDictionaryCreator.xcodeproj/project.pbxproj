@@ -1,0 +1,259 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		288AFF320F563D130085E73F /* LojbanDictionaryCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 288AFF310F563D130085E73F /* LojbanDictionaryCreator.m */; };
+		288AFF370F563DBA0085E73F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288AFF360F563DBA0085E73F /* CoreData.framework */; };
+		8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FB779EFE84155DC02AAC07 /* Foundation.framework */; };
+		AC26A7AB120B70210075F195 /* LojbanDictionaryXmlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = AC26A7AA120B70210075F195 /* LojbanDictionaryXmlParser.m */; };
+		AC26A900120C695E0075F195 /* Translation.m in Sources */ = {isa = PBXBuildFile; fileRef = AC26A79C120B6B980075F195 /* Translation.m */; };
+		AC26A901120C69630075F195 /* LojbanWord.m in Sources */ = {isa = PBXBuildFile; fileRef = AC26A79E120B6B980075F195 /* LojbanWord.m */; };
+		AC26A910120C69A30075F195 /* lojbanWordList.xml in Copy Alongside Of Binaries */ = {isa = PBXBuildFile; fileRef = AC26A7A5120B6F520075F195 /* lojbanWordList.xml */; };
+		AC26A92D120CA60B0075F195 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AC26A92C120CA60B0075F195 /* libsqlite3.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76F9E0486AA7600D96B5E /* Copy Alongside Of Binaries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				AC26A910120C69A30075F195 /* lojbanWordList.xml in Copy Alongside Of Binaries */,
+			);
+			name = "Copy Alongside Of Binaries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB779EFE84155DC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		288AFF310F563D130085E73F /* LojbanDictionaryCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LojbanDictionaryCreator.m; sourceTree = "<group>"; };
+		288AFF330F563D1C0085E73F /* LojbanDictionaryCreator.1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.man; path = LojbanDictionaryCreator.1; sourceTree = "<group>"; };
+		288AFF340F563D390085E73F /* LojbanDictionaryCreator_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LojbanDictionaryCreator_Prefix.pch; sourceTree = "<group>"; };
+		288AFF360F563DBA0085E73F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8DD76FA10486AA7600D96B5E /* LojbanDictionaryCreator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LojbanDictionaryCreator; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC26A79B120B6B980075F195 /* Translation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Translation.h; sourceTree = "<group>"; };
+		AC26A79C120B6B980075F195 /* Translation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Translation.m; sourceTree = "<group>"; };
+		AC26A79D120B6B980075F195 /* LojbanWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LojbanWord.h; sourceTree = "<group>"; };
+		AC26A79E120B6B980075F195 /* LojbanWord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LojbanWord.m; sourceTree = "<group>"; };
+		AC26A7A5120B6F520075F195 /* lojbanWordList.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = lojbanWordList.xml; sourceTree = SOURCE_ROOT; };
+		AC26A7A9120B70210075F195 /* LojbanDictionaryXmlParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LojbanDictionaryXmlParser.h; sourceTree = "<group>"; };
+		AC26A7AA120B70210075F195 /* LojbanDictionaryXmlParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LojbanDictionaryXmlParser.m; sourceTree = "<group>"; };
+		AC26A92C120CA60B0075F195 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76F9B0486AA7600D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */,
+				288AFF370F563DBA0085E73F /* CoreData.framework in Frameworks */,
+				AC26A92D120CA60B0075F195 /* libsqlite3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* «PROJECTNAME» */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				28D1EE350F56433F0089643D /* Model */,
+				C6859EA2029092E104C91782 /* Documentation */,
+				08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+				AC26A92C120CA60B0075F195 /* libsqlite3.dylib */,
+			);
+			name = "«PROJECTNAME»";
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				AC26A7A9120B70210075F195 /* LojbanDictionaryXmlParser.h */,
+				AC26A7AA120B70210075F195 /* LojbanDictionaryXmlParser.m */,
+				AC26A7A5120B6F520075F195 /* lojbanWordList.xml */,
+				AC26A79B120B6B980075F195 /* Translation.h */,
+				AC26A79C120B6B980075F195 /* Translation.m */,
+				AC26A79D120B6B980075F195 /* LojbanWord.h */,
+				AC26A79E120B6B980075F195 /* LojbanWord.m */,
+				288AFF340F563D390085E73F /* LojbanDictionaryCreator_Prefix.pch */,
+				288AFF310F563D130085E73F /* LojbanDictionaryCreator.m */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				288AFF360F563DBA0085E73F /* CoreData.framework */,
+				08FB779EFE84155DC02AAC07 /* Foundation.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76FA10486AA7600D96B5E /* LojbanDictionaryCreator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28D1EE350F56433F0089643D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C6859EA2029092E104C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				288AFF330F563D1C0085E73F /* LojbanDictionaryCreator.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76F960486AA7600D96B5E /* LojbanDictionaryCreator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB927408733DD40010E9CD /* Build configuration list for PBXNativeTarget "LojbanDictionaryCreator" */;
+			buildPhases = (
+				8DD76F990486AA7600D96B5E /* Sources */,
+				8DD76F9B0486AA7600D96B5E /* Frameworks */,
+				8DD76F9E0486AA7600D96B5E /* Copy Alongside Of Binaries */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LojbanDictionaryCreator;
+			productInstallPath = "$(HOME)/bin";
+			productName = "«PROJECTNAME»";
+			productReference = 8DD76FA10486AA7600D96B5E /* LojbanDictionaryCreator */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "LojbanDictionaryCreator" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* «PROJECTNAME» */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76F960486AA7600D96B5E /* LojbanDictionaryCreator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76F990486AA7600D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC26A901120C69630075F195 /* LojbanWord.m in Sources */,
+				AC26A900120C695E0075F195 /* Translation.m in Sources */,
+				AC26A7AB120B70210075F195 /* LojbanDictionaryXmlParser.m in Sources */,
+				288AFF320F563D130085E73F /* LojbanDictionaryCreator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB927508733DD40010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LojbanDictionaryCreator_Prefix.pch;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = LojbanDictionaryCreator;
+			};
+			name = Debug;
+		};
+		1DEB927608733DD40010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LojbanDictionaryCreator_Prefix.pch;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = LojbanDictionaryCreator;
+			};
+			name = Release;
+		};
+		1DEB927908733DD40010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1DEB927A08733DD40010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB927408733DD40010E9CD /* Build configuration list for PBXNativeTarget "LojbanDictionaryCreator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB927508733DD40010E9CD /* Debug */,
+				1DEB927608733DD40010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "LojbanDictionaryCreator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB927908733DD40010E9CD /* Debug */,
+				1DEB927A08733DD40010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
